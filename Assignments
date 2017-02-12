@@ -1,0 +1,23 @@
+command + spacebar
+type: Terminal
+return
+pwd
+ls
+cd Desktop
+mkdir Test
+cd Test
+touch index.html styles.css aboutMe.txt
+ls
+(made sure files listed properly)
+git add .
+git commit -m "added files"
+vi aboutMe.txt
+wrote bio
+git add . 
+git commit -m "updated aboutMe.txt"
+vi aboutMe.txt
+updated favorite movie
+git add .
+git commit -m "added favorite movie to aboutMe.txt"
+git log
+
